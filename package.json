@@ -1,0 +1,40 @@
+{
+  "name": "fishbook",
+  "version": "0.2.4",
+  "description": "Command line reading fiction.",
+  "license": "MIT",
+  "bin": {
+    "fishbook": "./bin/fishbook.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "chalk": "~4.1.2",
+    "chardet": "~1.6.0",
+    "commander": "~6.2.1",
+    "iconv-lite": "~0.6.3",
+    "inquirer": "~7.3.3",
+    "keypress": "~0.2.1",
+    "tree-kill": "~1.2.2"
+  },
+  "author": {
+    "name": "Milcery",
+    "email": "milcery@qq.com",
+    "url": "https://github.com/milcery/fishbook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milcery/fishbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milcery/fishbook/issues"
+  },
+  "keywords": [
+    "fiction",
+    "novel",
+    "book",
+    "touch fish"
+  ],
+  "engines": {
+    "node": ">= 10.23.1"
+  }
+}
